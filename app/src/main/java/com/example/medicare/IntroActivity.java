@@ -1,6 +1,7 @@
 package com.example.medicare;
 
 import android.os.Bundle;
+import android.widget.ImageView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,22 +15,25 @@ public class IntroActivity extends MaterialIntroActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addSlide(new SlideFragmentBuilder()
-                .title("Mradul")
-                .image(R.drawable.passport)
-                .buttonsColor(R.color.drose)
-                .backgroundColor(R.color.rose)
+                .title("Wide Range Of Nutritional Products")
+                .image(R.drawable.slide1)
+                .buttonsColor(R.color.rose)
+                .description("Diverse range of fitness products")
+                .backgroundColor(R.color.drose)
                 .build());
         addSlide(new SlideFragmentBuilder()
-                .title("Sanya")
-                .image(R.drawable.sanyaa)
-                .buttonsColor(R.color.drose)
-                .backgroundColor(R.color.rose)
+                .title("100% Original & Authentic")
+                .image(R.drawable.slide2)
+                .buttonsColor(R.color.rose)
+                .description("Verify your products authenticity")
+                .backgroundColor(R.color.drose)
                 .build());
         addSlide(new SlideFragmentBuilder()
-                .title("Manav")
-                .image(R.drawable.menev)
-                .buttonsColor(R.color.drose)
-                .backgroundColor(R.color.rose)
+                .title("Guide to Fit and Healty Lifestyle")
+                .image(R.drawable.slide3)
+                .buttonsColor(R.color.rose)
+                .description("We recommend products for your fitness goals")
+                .backgroundColor(R.color.drose)
                 .build());
     }
 }

@@ -51,14 +51,14 @@ public class SplashScreen extends AppCompatActivity {
             @Override
             public void run() {
                 if(preferences.getBoolean("isMain",false)){
-                    startActivity(new Intent(SplashScreen.this,MainActivity.class));
+                    startActivity(new Intent(SplashScreen.this,Login.class));
                     finish();
                 }
                 else {
                     editor.putBoolean("isMain",true);
                     editor.apply();
                     TaskStackBuilder.create(SplashScreen.this)
-                            .addNextIntentWithParentStack(new Intent(SplashScreen.this,MainActivity.class))
+                            .addNextIntentWithParentStack(new Intent(SplashScreen.this,Login.class))
                             .addNextIntent(new Intent(SplashScreen.this,IntroActivity.class))
                             .startActivities();
                 }
