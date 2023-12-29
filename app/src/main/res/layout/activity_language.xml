@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5989B"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Language Options"
+        android:textColor="@color/beige"
+        android:textSize="80px"
+        android:textStyle="bold"
+        android:id="@+id/lang"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Select the given language preference"
+        android:textColor="@color/beige"
+        android:textSize="50px"
+
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lang" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="105dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="60dp"
+        android:text="हिंदी"
+        android:textSize="45px"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+
+        android:id="@+id/button8"
+        android:layout_width="105dp"
+        android:layout_height="63dp"
+        android:layout_marginEnd="60dp"
+        android:text="मराठी"
+        android:textSize="45px"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button7"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="105dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="48dp"
+        android:text="ਪੰਜਾਬੀ"
+        android:textSize="45px"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="105dp"
+        android:layout_height="63dp"
+        android:layout_marginEnd="60dp"
+        android:text="ಕನ್ನಡ"
+        android:textSize="45px"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="105dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="40dp"
+        android:text="తెలుగు"
+        android:textSize="45px"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="105dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="52dp"
+        android:text="বাংলা ভাষা"
+        android:textSize="45px"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="105dp"
+        android:layout_height="63dp"
+        android:layout_marginEnd="60dp"
+        android:text="ગુજરાતી"
+        android:textSize="45px"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="105dp"
+        android:layout_height="63dp"
+        android:layout_marginEnd="60dp"
+        android:text="English"
+        android:textSize="45px"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button1"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
