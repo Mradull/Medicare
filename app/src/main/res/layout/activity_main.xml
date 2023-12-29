@@ -4,15 +4,68 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/lightblue"
     tools:context=".MainActivity">
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Choose Health Treatment"
+        android:textColor="@color/black"
+        android:textSize="80px"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="316dp"
+        android:layout_height="88dp"
+        app:srcCompat="@drawable/ORTHOPEDICS"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="316dp"
+        android:layout_height="88dp"
+        app:srcCompat="@drawable/NEPHROLOGY"
+        tools:ignore="ContentDescription,MissingConstraints,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="276dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="316dp"
+        android:layout_height="88dp"
+        app:srcCompat="@drawable/NEUROLOGY"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="402dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="316dp"
+        android:layout_height="88dp"
+        app:srcCompat="@drawable/GYNECOLOGY"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="516dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="316dp"
+        android:layout_height="88dp"
+        app:srcCompat="@drawable/DENTAL"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="633dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
